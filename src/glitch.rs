@@ -29,6 +29,8 @@ pub async fn fee_payer(
         let fee_to_send = scanner_state.get_fee_counter().await;
 
         if fee_to_send != 0 {
+            scanner_state.modify_fee_counter(0).await;
+            
             let hash_result = js_call::transfer(fee_to_send, fee_address.as_str());
 
             match hash_result {

@@ -18,7 +18,7 @@
       "network": "ETH Goerli",
       "monitor_address": "0xcd385AfC71115c653b48b2BCDB8d74D93f0764B6",
       "ws_node": "wss://eth-goerli.g.alchemy.com/v2/XBl1fsTeAZdRSHiOgAuy_sXsZhVuKNEf",
-      "ws_glitch_node": "ws://13.212.197.46:9944",
+      "ws_glitch_node": "ws://13.212.108.116:9944",
       "confirmations": 6
     }
   ]

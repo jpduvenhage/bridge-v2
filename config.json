@@ -1,6 +1,6 @@
 {
   "glitch_private_key_old": "0x5c1f0018ddb973564910ce1af1daab89cfdc3f49e01570704041e877cffae30a",
-  "glitch_private_key": "0xd1c5f5b7ba756251530f26ffeff809b62b7003154400df729cfddeb24aa21b49",
+  "glitch_private_key": "0x5c1f0018ddb973564910ce1af1daab89cfdc3f49e01570704041e877cffae30a",
   "glitch_fee_address": "5CZpAdrqSrwytzf7fS6Ri53oNMwqW5EgfzMpwmzYGrPp11M7",
   "interval_days_for_transfer": 1,
   "business_fee": 5,
@@ -19,8 +19,16 @@
       "network": "ETH Goerli",
       "monitor_address": "0xe1153372Bc6d27fEA0BD353a3075d06E943D58BA",
       "ws_node": "wss://eth-goerli.g.alchemy.com/v2/XBl1fsTeAZdRSHiOgAuy_sXsZhVuKNEf",
-      "ws_glitch_node": "ws://13.212.197.46:9944",
+      "ws_glitch_node": "ws://13.212.108.116:9944",
       "confirmations": 6
     }
-  ]
+  ],
+  "alert": {
+    "host": "smtp.mailgun.org",
+    "user": "glitch.notifications@coinfabrik.com",
+    "password": "8adf8582f8b85406149e417778811318-e5475b88-e54bf1ed",
+    "send_to": ["ramirez7358@gmail.com", "brian.ramirez@coinfabrik.com"],
+    "low_balance": 100000000,
+    "crit_balance" : 100
+  }
 }

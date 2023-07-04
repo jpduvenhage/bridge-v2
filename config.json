@@ -23,12 +23,16 @@
       "confirmations": 6
     }
   ],
-  "alert": {
+  "notifications": {
     "host": "smtp.mailgun.org",
     "user": "glitch.notifications@coinfabrik.com",
     "password": "8adf8582f8b85406149e417778811318-e5475b88-e54bf1ed",
-    "send_to": ["ramirez7358@gmail.com", "brian.ramirez@coinfabrik.com"],
-    "low_balance": 100000000,
-    "crit_balance" : 100
+    "send_to": [
+      "sean@glitch.finance",
+      "diego@glitch.finance",
+      "lieu@glitch.finance",
+      "aram@glitch.finance"
+    ],
+    "low_balance": 100000000
   }
 }

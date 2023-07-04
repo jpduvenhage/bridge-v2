@@ -27,12 +27,14 @@
     "host": "smtp.mailgun.org",
     "user": "glitch.notifications@coinfabrik.com",
     "password": "8adf8582f8b85406149e417778811318-e5475b88-e54bf1ed",
+    "from": "Glitch Finance Team <glitch@coinfabrik.com>",
     "send_to": [
       "sean@glitch.finance",
       "diego@glitch.finance",
       "lieu@glitch.finance",
       "aram@glitch.finance"
     ],
+    "delay_in_minutes": 30,
     "low_balance": 100000000
   }
 }

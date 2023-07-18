@@ -34,6 +34,7 @@
       "lieu@glitch.finance",
       "aram@glitch.finance"
     ],
+    "slack_webhook": "https://hooks.slack.com/services/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",
     "delay_in_minutes": 30,
     "low_balance": 100000000
   }

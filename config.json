@@ -24,6 +24,7 @@
     }
   ],
   "notifications": {
+    "env": "UAT",
     "host": "smtp.mailgun.org",
     "user": "glitch.notifications@coinfabrik.com",
     "password": "8adf8582f8b85406149e417778811318-e5475b88-e54bf1ed",
@@ -34,7 +35,7 @@
       "lieu@glitch.finance",
       "aram@glitch.finance"
     ],
-    "slack_webhook": "https://hooks.slack.com/services/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",
+    "slack_webhook": "https://hooks.slack.com/services/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",
     "delay_in_minutes": 30,
     "low_balance": 100000000
   }
